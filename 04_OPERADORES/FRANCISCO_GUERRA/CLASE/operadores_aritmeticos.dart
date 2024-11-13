@@ -14,4 +14,21 @@ void main (){
   print(Mensaje2.substring(1));
   print(Mensaje2.substring(1,13));
   print("Hola");
+
+  double resultado3 = 10 / 3; //Devuelve resultado un numero decimal
+  print (resultado3);
+
+  int resultado4 = 10 ~/ 3; //Devulve solo el entero del resultado
+  print (resultado4);
+
+  double resultado5 = 10 % 3; //Devuelve el residuo de la division
+  print (resultado5);
+
+  var i = 10;
+  i <<= 5;
+  print(i);
+
+  var j = 10;
+  j >>= 2;
+  print(j);
 }
